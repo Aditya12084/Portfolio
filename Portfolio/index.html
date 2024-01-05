@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Aditya Patayane</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <header id="home">
+      <nav>
+        <h1><span class="first-letter">A</span>ditya.</h1>
+        <ul class="nav-menu">
+          <li><a class="nav-links" href="#home">Home</a></li>
+          <li><a class="nav-links" href="#about">About</a></li>
+          <li><a class="nav-links" href="#skills">Skills</a></li>
+          <li><a class="nav-links" href="#project">Projects</a></li>
+          <li><a class="nav-links" href="#achievements">Achievements</a></li>
+          <li><a class="contact-btn" href="#contactme">Contact Me</a></li>
+        </ul>
+
+        <div onclick="triggHambMenu()" class="hamb-bars">
+          <div id="bar1" class="bar"></div>
+          <div id="bar2" class="bar"></div>
+          <div id="bar3" class="bar"></div>
+        </div>
+      </nav>
+
+      <section class="hero">
+        <div class="hand-icon-cont">
+          <h1>Hi all I'am Aditya</h1>
+          <img src="./assets/hand-icon.png" alt="" />
+        </div>
+        <h2>
+          A passionate Front-End Web Developer <br />
+          with experience in building website frontends <br />
+          using HTML, CSS, and JavaScript.
+        </h2>
+        <div class="social-media-links">
+          <a href="https://github.com/Aditya12084"
+            ><img src="./assets/github.png" alt=""
+          /></a>
+          <a href="https://linkedin.com/in/aditya-patayane-a506b1252"
+            ><img src="./assets/linkedin.png" alt=""
+          /></a>
+          <a href="https://www.instagram.com/adityapatayane1?igsh=YWYwM2I1ZDdmOQ=="><img src="./assets/instagram.png" alt="" /></a>
+          <a href="https://www.facebook.com/aditya.patayane?mibextid=eHce3h"
+            ><img src="./assets/facebook.png" alt=""
+          /></a>
+        </div>
+        <div class="hero-quick-links">
+          <!-- <a href="#contactme">CONTACT ME</a> -->
+          <a download="resume" href="./assets/Resume.pdf">SEE MY RESUME</a>
+        </div>
+      </section>
+    </header>
+
+    <section id="about" class="about" data-aos="fade-in">
+      <div class="left-about">
+        <img src="./assets/my2.png" alt="" />
+      </div>
+      <div class="right-about">
+        <h1>
+          About
+          <hr />
+        </h1>
+
+        <p>
+          3rd Year Computer Engineering Student | Aspiring Full Stack Developer
+          | Frontend Web Developer Experienced in HTML, CSS, and JavaScript,
+          crafting functional websites and a Java-based movie ticket booking
+          app. Currently mastering advanced JavaScript concepts, especially
+          asynchronous programming, to create dynamic web applications. Immersed
+          in leveraging modern JavaScript frameworks for responsive,
+          high-performance solutions. Passionate about merging backend logic
+          with frontend aesthetics for innovative user experiences. Focused on
+          advancing to a Full Stack Developer role, continuously learning and
+          embracing new technologies to create seamless digital experiences.
+        </p>
+      </div>
+    </section>
+
+    <section id="skills" class="skills" data-aos="fade-in">
+      <h1>Skills</h1>
+      <hr />
+
+      <div class="skills-cont">
+        <div class="web-dev">
+          <img src="./assets/web-developer.png" alt="" />
+          <h2>Frontend Development</h2>
+          <p>
+            Experienced in HTML, CSS, and JavaScript, developing responsive
+            websites.
+          </p>
+        </div>
+        <div class="web-design">
+          <img src="./assets/java.png" alt="" />
+          <h2>Java</h2>
+          <p>
+            Hands-on experience in crafting a full-stack Java application for
+            movie ticket booking.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="project" class="projects" data-aos="fade-in">
+      <h1>Projects</h1>
+      <hr />
+      <div class="projects-cont">
+        <div class="ind-project">
+          <h2>1. Greenstore a Plant Selling Website</h2>
+          👉<a
+            href="https://drive.google.com/file/d/1ST4cn4sFJTkWxC8n3Js3nWvrP1lH8nK9/view"
+            >Click her to view project</a
+          >
+          <p>
+            🌿 Aspiring to simplify plant shopping, our project focuses on an
+            intuitive online store for a variety of plants. Created from
+            scratch, it boasts a fully functional frontend and backend,
+            showcasing my skills in web development. The platform categorizes
+            plants by traits and care needs, aiming to be user-friendly for both
+            seasoned gardeners and beginners. <br />
+
+            ✨ Offering an array of plant categories, detailed information per
+            plant, and an engaging blog, our website strives to be a one-stop
+            destination for plant enthusiasts, fostering knowledge and nurturing
+            green passions.
+          </p>
+        </div>
+        <div class="ind-project">
+          <h2>2. Movie Ticket Booking Management System</h2>
+          👉
+          <a
+            href="https://drive.google.com/file/d/1RZd5LzIlbayiGsHGlVq6jVtxToJL7lqJ/view"
+            >Click here to view project</a
+          >
+          <p>
+            🎬 Developed using Java and MySQL in NetBeans IDE, this Movie Ticket
+            Booking system caters to offline ticketing at physical counters. Its
+            intuitive Graphical User Interface (GUI) streamlines the booking
+            process, allowing ticketing staff to effortlessly select movies,
+            timings, and seats as per customers' preferences. <br />
+
+            🎟️ Featuring a seat map view, this system simplifies seat selection
+            for customers, enhancing the overall ticketing experience.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="achievements" class="achieve-cirt" data-aos="fade-in">
+      <div class="achieve">
+        <h1>Achievements</h1>
+        <hr />
+        <p>
+          1. Best Performer and 2nd Rank in Rush Hours 2023 a Tech Competition
+          organised by Computer Club, RMCET.
+        </p>
+        <p>
+          2. First Rank in Quizster a national level Competition organized by
+          VDPSC, Deorukh.
+        </p>
+        <p>
+          3. Ranked in Top 5 at CodeIT a national level Competition organized by
+          VDPSC, Deorukh.
+        </p>
+      </div>
+      <div class="cert">
+        <h1>Cirtifications</h1>
+        <hr />
+        <p>
+          1. JavaScript and PHP programming complete course by Udemy
+        </p>
+        <p>
+          2. Java Training complete course 2022 by Udemy
+        </p>
+      </div>
+    </section>
+
+    <div id="contactme" class="contactme">
+      <h1 align="center">Reach Out to me</h1>
+      <hr />
+      <div class="con-left-right">
+        <div class="contact-left">
+          <h4>
+            Front-End Web Developer | Aspiring Full Stack Web Developer |
+            Passionate Computer Engineering Student | Seeking Opportunities to
+            Innovate and Grow | RMCET'25 | RUIA'21
+          </h4>
+          <p></p>
+          <p>Open for opportunities, always learning, growing and coding</p>
+          <div class="social-media-links cont">
+            <a href="https://github.com/Aditya12084"
+            ><img src="./assets/github.png" alt=""
+          /></a>
+          <a href="https://linkedin.com/in/aditya-patayane-a506b1252"
+            ><img src="./assets/linkedin.png" alt=""
+          /></a>
+          <a href="https://www.instagram.com/adityapatayane1?igsh=YWYwM2I1ZDdmOQ=="><img src="./assets/instagram.png" alt="" /></a>
+          <a href="https://www.facebook.com/aditya.patayane?mibextid=eHce3h"
+            ><img src="./assets/facebook.png" alt=""
+          /></a>
+          </div>
+        </div>
+      </div>
+      <p align="center" style="margin-top: 40px;">
+        © Aditya Patayane 2024. All Rights Reserved
+      </p>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 200,
+        duration: 800,
+      });
+    </script>
+
+    <script>
+      function triggHambMenu() {
+        document
+          .querySelector(".nav-menu")
+          .classList.toggle("hamb-menu-active");
+        document.querySelectorAll(".bar").forEach((ele) => {
+          ele.classList.toggle("icon");
+        });
+      }
+    </script>
+  </body>
+</html>
